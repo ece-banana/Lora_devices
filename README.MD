@@ -1,5 +1,5 @@
 # LORA dev board
-- **simple example**
+- ~~simple example~~
 - set of functions to send & recieve data
 - make a lib for micropython
 ## TO DO
