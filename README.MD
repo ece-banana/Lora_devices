@@ -9,10 +9,10 @@
 - [ ] make illustration of connection
 - [x] find the dashboard apps:
 ### Dashboaeds
- - NodeRED
- - Grafana
- - io.adafruit.com
- - thingSpeak
+ - NodeRED (Full control)
+ - Grafana (to-do)
+ - io.adafruit.com (10 feed, can be grouped)
+ - thingSpeak (limited sending rate)
 # Addition interfaces
 ### Telegram, Discord
 can be done through HTTP requests (urequests for micropython)
