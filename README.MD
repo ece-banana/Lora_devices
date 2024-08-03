@@ -13,7 +13,6 @@
  - Grafana
  - io.adafruit.com
  - thingSpeak
-```most of interfaces work through the HTTP requests (urequests for micropython)```
 # Addition interfaces
 ### Telegram, Discord
 can be done through HTTP requests (urequests for micropython)
