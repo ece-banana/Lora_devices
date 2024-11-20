@@ -16,3 +16,26 @@
 # Addition interfaces
 ### Telegram, Discord
 can be done through HTTP requests (urequests for micropython)
+'''
+# reciever
+while(True):
+    if(ser.inWaiting()==8):
+        a = ser.read(8)
+        ser.write(a[:4])
+        break
+    else:
+        pass
+'''
+
+'''
+# sender
+def test():
+    a = time.monotonic()
+    ser.write(b'\x00\x00\x00'+ 'hello'.encode())
+    while(ser.inWaiting()<4):
+        pass
+    r = ser.read(4)
+    b = time.monotonic()
+    print(r, b-a, a,b)
+
+'''
