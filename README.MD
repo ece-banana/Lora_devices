@@ -16,7 +16,7 @@
 # Addition interfaces
 ### Telegram, Discord
 can be done through HTTP requests (urequests for micropython)
-'''
+```
 # reciever
 while(True):
     if(ser.inWaiting()==8):
@@ -25,9 +25,9 @@ while(True):
         break
     else:
         pass
-'''
+```
 
-'''
+```
 # sender
 def test():
     a = time.monotonic()
@@ -37,5 +37,4 @@ def test():
     r = ser.read(4)
     b = time.monotonic()
     print(r, b-a, a,b)
-
-'''
+```
